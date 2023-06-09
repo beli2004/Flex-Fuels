@@ -1,90 +1,89 @@
+.newsDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsDiv h2 {
+  color: white;
 
-    .newsDiv {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .newsDiv h2 {
-        color: white;
-      
-        border-bottom: 2px solid white;
-        text-align: center;
-        padding: 8px;
-        font-size: 30px;
-        border: 2px solid gray;
-        width: 100%;
-      }
-      .category {
-        border: 2px solid gray;
-      
-        margin-top: 2em;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        padding: 1em 3em;
-      }
-      .category img {
-        width: 30%;
-        height: 50vh;
-      }
-      .category div {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 2em;
-      }
-      .category p {
-        margin-left: 2em;
-      }
-      .categoryInverse {
-        border: 2px solid gray;
-      
-        width: 90%;
-        margin-top: 2em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        padding: 1em 3em;
-      }
-      .categoryInverse img {
-        width: 30%;
-        height: 50vh;
-      }
-      .categoryInverse div {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 2em;
-      }
-      .categoryInverse p {
-        margin-right: 2em;
-      }
-      .categoryInverse:hover {
-        background-color: rgba(158, 155, 155, 0.226);
-      }
-      .category:hover {
-        background-color: rgba(158, 155, 155, 0.226);
-      }
-      .categoryInverse h3 {
-        margin-bottom: 2em;
-      }
-      .category h3 {
-        margin-bottom: 2em;
-      }
+  border-bottom: 2px solid white;
+  text-align: center;
+  padding: 8px;
+  font-size: 30px;
+  border: 2px solid gray;
+  width: 100%;
+}
+.category {
+  border: 2px solid gray;
 
-      p{
-        font-family: Verdana;
-        font-size: 30px;
-      }
+  margin-top: 2em;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1em 3em;
+}
+.category img {
+  width: 30%;
+  height: 50vh;
+}
+.category div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.category p {
+  margin-left: 2em;
+}
+.categoryInverse {
+  border: 2px solid gray;
 
-      h3{
-        font-family: Verdana;
-        font-size: 35px;
-      }
+  width: 90%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1em 3em;
+}
+.categoryInverse img {
+  width: 30%;
+  height: 50vh;
+}
+.categoryInverse div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.categoryInverse p {
+  margin-right: 2em;
+}
+.categoryInverse:hover {
+  background-color: rgba(158, 155, 155, 0.226);
+}
+.category:hover {
+  background-color: rgba(158, 155, 155, 0.226);
+}
+.categoryInverse h3 {
+  margin-bottom: 2em;
+}
+.category h3 {
+  margin-bottom: 2em;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 35px;
+}

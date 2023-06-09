@@ -1,0 +1,144 @@
+body {
+  font-family: Verdana;
+
+  background-color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav {
+  background: grey;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.DonerMain {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+img {
+  margin-top: 2em;
+  width: 50%;
+}
+.TabelaSastojci {
+  width: 30%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  color: white;
+  min-width: 400px;
+  box-shadow: 0 0 10px gray;
+}
+.TabelaSastojci thead tr {
+  background-color: gray;
+  color: #ffffff;
+  text-align: left;
+}
+.TabelaSastojci th,
+.TabelaSastojci td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.TabelaSastojci tbody tr:nth-of-type(n) {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.TabelaSastojci tbody tr:nth-of-type(even) {
+  background-color: #e0dddd;
+  color: black;
+}
+
+.TabelaSastojci tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+  color: black;
+}
+.KcalNaslov {
+  width: 30%;
+  margin-bottom: -1em;
+  padding: 1em 15px;
+  color: white;
+  border-top: 1px solid white;
+}
+.tabelaKcal {
+  color: white;
+  width: 30%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  color: white;
+}
+.tabelaKcal th {
+  width: 100%;
+  padding: 12px 15px;
+  text-align: center;
+}
+.tdBorder {
+  border-left: 0.5px solid white;
+  border-right: 0.5px solid white;
+}
+.tabelaKcal td {
+  padding: 7px 15px;
+  text-align: start;
+}
+
+.helperDivLine {
+  width: 30%;
+  margin-bottom: 3em;
+  border-top: 1px solid white;
+}
+h2 {
+  width: 100%;
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 30px;
+  border: 2px solid gray;
+}
+.PripremaText {
+  margin: 3em 0;
+  color: white;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.PripremaText h3 {
+  padding: 0.5em;
+  border-bottom: 1px solid white;
+}
+.PripremaText p {
+  margin-top: 1em;
+}
