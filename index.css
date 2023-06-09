@@ -1,60 +1,5 @@
-.Hintergrund {
-  background-color: black;
-}
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Verdana;
-}
 
-nav {
-  background: grey;
-  height: 80px;
-  width: 100%;
-}
-
-label.logo {
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-
-nav ul {
-  float: right;
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a {
-  color: white;
-  font-size: 17px;
-  text-transform: uppercase;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  padding: 8px;
-  font-size: 30px;
-  border: 2px solid gray;
-}
-
-.link {
-  color: white;
-}
 * {
   box-sizing: border-box;
 }
@@ -122,7 +67,7 @@ img {
   }
 }
 
-.velicina {
+.größe {
   width: 350px;
   height: 250px;
   margin: 10px;
@@ -150,3 +95,27 @@ img {
 .Rezepte a:hover {
   color: rgb(178, 178, 92);
 }
+
+.Übungen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  width: 100%;
+}
+
+.Übungen a {
+  margin: 2em 0;
+  border: 1px solid gray;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Übungen a:hover {
+  color: rgb(178, 178, 92);
+}
+

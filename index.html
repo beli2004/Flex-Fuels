@@ -6,16 +6,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="menü.css" />
   </head>
 
   <body class="Hintergrund">
     <nav>
       <label class="logo">FlexFuels</label>
       <ul>
-        <li><a class="active" href="#">Startseite</a></li>
+        <li><a class="active" href="index.html">Startseite</a></li>
         <li><a href="news.html">News</a></li>
         <li><a href="rezepte.html">Rezepte</a></li>
-        <li><a href="#">Übungen</a></li>
+        <li><a href="übungen.html">Übungen</a></li>
       </ul>
     </nav>
 
@@ -25,25 +26,20 @@
 
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
+        <div class="numbertext">1 / 2</div>
         <a href="schlägerei.html"
           ><img src="SKANDAL.png" style="width: 100%"
         /></a>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
+        <div class="numbertext">2 / 2</div>
         <a href="arni.html"
           ><img src="Arni1700x900.png" style="width: 100%"
         /></a>
       </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <a href="schritte.html"
-          ><img src="Schritte1700x900.png" style="width: 100%"
-        /></a>
-      </div>
+      
 
       <p class="prev" onclick="minusSlides()">&#10094;</p>
       <p class="next" onclick="plusSlides()">&#10095;</p>
@@ -55,22 +51,48 @@
 
     <div class="Rezepte">
       <a href="Döner.html"
-        ><img src="Döner1.jpg" alt="" class="velicina" />
+        ><img src="Döner1.jpg" alt="" class="größe" />
         <h3>Döner</h3>
       </a>
       <a href="pizza.html">
-        <img src="pizza1.jpg" alt="" class="velicina" />
+        <img src="pizza1.jpg" alt="" class="größe" />
         <h3>proteinreiche Pizza</h3>
       </a>
-      <a href="#"
-        ><img src="porridge.jpg" alt="" class="velicina" />
+      <a href="#">
+        <img src="porridge.jpg" alt="" class="größe" />
         <h3>Porridge</h3>
       </a>
-      <a href="#"
-        ><img src="reis.jpg" alt="" class="velicina" />
+      <a href="#">
+        <img src="reis.jpg" alt="" class="größe" />
         <h3>Hähnchen mit Reis</h3>
       </a>
     </div>
+
+    <div>
+      <h2>Antonio´s Favourites</h2>
+    </div>
+
+    <div class="Übungen">
+      <a href="#">
+        <img src="bankdrücken.jpg" alt="" class="größe">
+        <h3>Bankdrücken</h3>
+      </a>
+      <a href="#">
+        <img src="bizeps.jpg" alt="" class="größe">
+        <h3>Bizeps Curls</h3>
+      </a>
+      <a href="#">
+        <img src="butterfly.jpg" alt="" class="größe">
+        <h3>Butterfly</h3>
+      </a>
+      <a href="#">
+        <img src="rudern.webp" alt="" class="größe">
+        <h3>Rudern (eng)</h3>
+      </a>
+      
+    </div>
+
+
     <script>
       let slideIndex = 0;
       let i;
