@@ -40,7 +40,7 @@ nav ul li a {
   font-size: 17px;
   text-transform: uppercase;
 }
-.DonerMain {
+.Rezeptartikel {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -50,7 +50,7 @@ img {
   margin-top: 2em;
   width: 50%;
 }
-.TabelaSastojci {
+.Tabelle {
   width: 30%;
   border-collapse: collapse;
   margin: 25px 0;
@@ -59,38 +59,38 @@ img {
   min-width: 400px;
   box-shadow: 0 0 10px gray;
 }
-.TabelaSastojci thead tr {
+.Tabelle thead tr {
   background-color: gray;
   color: #ffffff;
   text-align: left;
 }
-.TabelaSastojci th,
-.TabelaSastojci td {
+.Tabelle th,
+.Tabelle td {
   padding: 12px 15px;
   text-align: center;
 }
 
-.TabelaSastojci tbody tr:nth-of-type(n) {
+.Tabelle tbody tr:nth-of-type(n) {
   background-color: rgb(255, 255, 255);
   color: black;
 }
-.TabelaSastojci tbody tr:nth-of-type(even) {
+.Tabelle tbody tr:nth-of-type(even) {
   background-color: #e0dddd;
   color: black;
 }
 
-.TabelaSastojci tbody tr:last-of-type {
+.Tabelle tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
   color: black;
 }
-.KcalNaslov {
+.Kcal {
   width: 30%;
   margin-bottom: -1em;
   padding: 1em 15px;
   color: white;
   border-top: 1px solid white;
 }
-.tabelaKcal {
+.TabelleKcal {
   color: white;
   width: 30%;
   border-collapse: collapse;
@@ -98,7 +98,7 @@ img {
   font-size: 0.9em;
   color: white;
 }
-.tabelaKcal th {
+.TabelleKcal  th {
   width: 100%;
   padding: 12px 15px;
   text-align: center;
@@ -107,7 +107,7 @@ img {
   border-left: 0.5px solid white;
   border-right: 0.5px solid white;
 }
-.tabelaKcal td {
+.TabelleKcal  td {
   padding: 7px 15px;
   text-align: start;
 }
@@ -126,7 +126,7 @@ h2 {
   font-size: 30px;
   border: 2px solid gray;
 }
-.PripremaText {
+.ZubereitungText {
   margin: 3em 0;
   color: white;
   width: 60%;
@@ -135,10 +135,10 @@ h2 {
   align-items: center;
   flex-direction: column;
 }
-.PripremaText h3 {
+.ZubereitungText h3 {
   padding: 0.5em;
   border-bottom: 1px solid white;
 }
-.PripremaText p {
+.ZubereitungText p {
   margin-top: 1em;
 }
