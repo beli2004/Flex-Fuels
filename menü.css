@@ -1,5 +1,6 @@
 .Hintergrund {
     background-color: black;
+    
   }
   * {
     padding: 0;
@@ -55,3 +56,23 @@
   .link {
     color: white;
   }
+
+  .footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
