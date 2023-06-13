@@ -27,18 +27,20 @@
   color: white;
   padding: 1em 3em;
 }
-.category img {
-  width: 30%;
-  height: 50vh;
-}
+
 .category div {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   width: 100%;
   margin-bottom: 2em;
 }
-.category p {
-  margin-left: 2em;
+.category div p {
+  width: 50%;
+  margin: 0 0 0 2em;
+}
+.category div img {
+  width: 50%;
 }
 .categoryInverse {
   border: 2px solid gray;
@@ -52,19 +54,22 @@
   color: white;
   padding: 1em 3em;
 }
-.categoryInverse img {
-  width: 30%;
-  height: 50vh;
-}
+
 .categoryInverse div {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 2em;
 }
-.categoryInverse p {
-  margin-right: 2em;
+
+.categoryInverse div p {
+  width: 50%;
+  margin: 0 2em 0 0;
 }
+.categoryInverse div img {
+  width: 50%;
+}
+
 .categoryInverse:hover {
   background-color: rgba(158, 155, 155, 0.226);
 }
